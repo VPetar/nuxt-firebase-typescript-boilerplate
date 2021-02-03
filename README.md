@@ -52,6 +52,12 @@ Install process is pretty straightforward.
 git clone https://github.com/VPetar/nuxt-firebase-typescript-boilerplate.git
 cd nuxt-firebase-typescript-boilerplate
 yarn install
+cp .env.example .env
+```
+Make sure you open up [Firebase account](https://console.firebase.google.com/) and enable authentication with email, google, facebook.
+
+To run project in development:
+```
 yarn dev
 ```
 
